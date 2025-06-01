@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "db:generate": "npx -r dotenv/config drizzle-kit generate --config=drizzle.config.ts",
-    "db:migrate": "npx -r dotenv/config drizzle-kit migrate --config=drizzle.config.ts",
-    "db:create-table": "npx -r dotenv/config tsx src/db/manual-migration.ts",
+    "db:generate": "drizzle-kit generate --config=drizzle.config.ts",
+    "db:migrate": "drizzle-kit migrate --config=drizzle.config.ts",
+    "db:create-table": "tsx src/db/manual-migration.ts",
     "test": "vitest",
     "test:ui": "vitest --ui"
   },

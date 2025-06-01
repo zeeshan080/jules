@@ -15,9 +15,9 @@ export default function HomePage() {
           <Link href="/order-cake">
             <Button size="lg">Order a Custom Cake</Button>
           </Link>
-              <Link href="/admin/orders" className="ml-4">
+              {/* <Link href="/admin/orders" className="ml-4">
                 <Button size="lg" variant="outline">View Orders (Admin)</Button>
-              </Link>
+              </Link> */}
         </div>
       </div>
     </main>
